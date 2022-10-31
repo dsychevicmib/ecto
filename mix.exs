@@ -37,7 +37,7 @@ defmodule Ecto.Mixfile do
 
   defp deps do
     [{:poolboy, "~> 1.4"},
-     {:sbroker, "~> 0.7", optional: true},
+     {:sbroker, "~> 1.0", optional: true},
      {:decimal, "~> 1.0"},
      {:postgrex, "~> 0.11.0", optional: true},
      {:mariaex, "~> 0.5.0 or ~> 0.6.0", optional: true},
